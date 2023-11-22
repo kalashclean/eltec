@@ -1,0 +1,4 @@
+with this master code, which is using MCP2515, when i connect two arduino : 
+- the slave receive values from the master, but i do not achieve to send value back to the master, probably due to the fact it is not the MCP2515
+when i connect with the real MCP2515: 
+- no answer
