@@ -1,5 +1,5 @@
 #include <furi.h>
-#include <api-hal-spi.h>
+#include <furi-hal-spi.h>
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
