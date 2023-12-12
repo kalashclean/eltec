@@ -1,0 +1,16 @@
+App(
+    appid="mcp2515_can_reader",
+    name="MCP2515 CAN Reader",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="main",  # Entry point function in your main.c
+    stack_size=2 * 1024,  # Adjust stack size as needed
+    fap_category="Utilities",  # Category under which the app will be listed
+    fap_icon="icon.png",  # Path to the icon file
+    fap_icon_assets="assets",  # Path to the assets folder
+    fap_libs=["assets"],  # Libraries used
+    fap_icon_assets_symbol="mcp2515_can_reader",  # Symbol for the icon assets
+    fap_author="Your Name",  # Your name or alias
+    fap_weburl="https://yourwebsite.com",  # Your website or project page (optional)
+    fap_version=(1, 0),  # Version of your app
+    fap_description="Application for reading CAN data using MCP2515",  # Short description
+)
