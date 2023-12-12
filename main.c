@@ -1,5 +1,6 @@
 #include <furi.h>
 #include <furi_hal_spi.h>
+#include <furi_hal_graphics.h>
 #include <stdint.h>
 #include <stdbool.h>
 #include <stddef.h>
